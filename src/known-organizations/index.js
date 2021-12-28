@@ -250,7 +250,18 @@ export const KnownOrganizations = {
       },
     ].map(org => [org.address.toLowerCase(), org])
   ),
-
+  kintsugi: new Map(
+    [
+      {
+        address: '0x3a6a994AC0CC96b6DDbaA99F10769384Fa14227B',
+        domain: 'lido-dao.aragonid.eth',
+        image: lidoImage,
+        name: 'Lido (Kintsugi)',
+        template: TEMPLATE_COMPANY,
+        recommended: true,
+      }
+    ].map(org => [org.address.toLowerCase(), org])
+  ),
 }
 
 // Get the organizations that might appear in the suggestions,

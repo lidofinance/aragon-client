@@ -52,6 +52,7 @@ const SELECTOR_NETWORKS = [
     'https://rinkeby.client.aragon.org/',
   ],
   ['goerli', 'Ethereum Testnet (Göerli)', 'https://testnet.lido.fi/'],
+  ['kintsugi', 'Kintsugi Testnet', 'http://kintsugi-aragon.testnet.fi/'],
 ]
 if (network.type === 'ropsten') {
   SELECTOR_NETWORKS.push([
