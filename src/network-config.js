@@ -64,6 +64,26 @@ export const networkConfigs = {
       portisDappId ? { id: 'portis', conf: portisDappId } : null,
     ].filter(p => p),
   },
+  kintsugi: {
+    addresses: {
+      ensRegistry:
+        localEnsRegistryAddress || '0x46fF67E6f5d419aB203A25e6A1AB8FaFDE137d68',
+    },
+    nodes: {
+      defaultEth: 'ws://kintsugi.testnet.fi:8546',
+    },
+    settings: {
+      chainId: 1337702,
+      name: 'Kintsugi testnet',
+      shortName: 'Kintsugi',
+      type: 'kintsugi', // as returned by web3.eth.net.getNetworkType()
+      live: true,
+    },
+    providers: [
+      { id: 'provided' },
+      { id: 'frame' }
+    ],
+  },
   ropsten: {
     addresses: {
       ensRegistry:
