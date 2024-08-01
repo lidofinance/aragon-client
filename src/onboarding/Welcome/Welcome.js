@@ -7,6 +7,7 @@ import Header from '../Header/Header'
 import OpenOrg from './OpenOrg'
 import Suggestions from './Suggestions'
 import WelcomeAction from './WelcomeAction'
+import BannerSunset from '../../components/BannerSunset/BannerSunset'
 
 import actionCreate from './assets/action-create.png'
 import actionOpen from './assets/action-open.png'
@@ -77,6 +78,8 @@ const Welcome = React.memo(function Welcome({
         title="Welcome to Aragon"
         subtitle="Create your own organization in a few minutes!"
       />
+
+      <BannerSunset />
 
       {suggestedOrgs.length > 0 ? (
         <Split
