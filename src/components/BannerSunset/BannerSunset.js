@@ -7,12 +7,11 @@ export default function BannerSunset() {
       Lido contributors&nbsp;
       <a href="https://research.lido.fi/t/discontinuation-of-aragon-ui-use/7992">
         suggest discontinuing
-      </a>&nbsp;
-      the use of Aragon UI. The user interface will enter a ‘no support period’&nbsp;
-      until the end of the year, so please use&nbsp;
-      <a href="https://vote.lido.fi">vote.lido.fi</a>&nbsp;
-      and <a href="https://operators.lido.fi">operators.lido.fi</a> apps
-      instead.
+      </a>
+      &nbsp; the use of Aragon UI. The user interface will enter a ‘no support
+      period’&nbsp; until the end of the year, so please use&nbsp;
+      <a href="https://vote.lido.fi">vote.lido.fi</a>&nbsp; and&nbsp;
+      <a href="https://operators.lido.fi">operators.lido.fi</a> apps instead.
     </Info>
   )
 }
