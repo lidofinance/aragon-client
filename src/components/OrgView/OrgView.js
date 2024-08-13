@@ -32,6 +32,7 @@ import SignerPanel from '../SignerPanel/SignerPanel'
 import UpgradeBanner from '../Upgrade/UpgradeBanner'
 import UpgradeModal from '../Upgrade/UpgradeModal'
 import UpgradeOrganizationPanel from '../Upgrade/UpgradeOrganizationPanel'
+import BannerSunset from '../BannerSunset/BannerSunset'
 
 // Remaining viewport width after the menu panel is factored in
 const AppWidthContext = React.createContext(0)
@@ -264,6 +265,9 @@ function OrgView({
               <ActivityButton apps={apps} />
             </div>
           </div>
+
+          <BannerSunset />
+
           <div
             css={`
               flex-grow: 1;
